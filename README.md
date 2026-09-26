@@ -144,7 +144,7 @@ print(f"Risk score: {score}")
 - The analyzer makes live network requests (DNS + TLS handshake). Results depend on your network and may time out.
 - Timeouts are set to 5 seconds per connection to avoid hanging.
 - Typosquatting detection uses a simple similarity ratio and may produce false positives for legitimately similar domains.
-- This tool is a heuristic aid, not a guarantee. Always verify links through official sources before clicking.
+- This tool is an heuristic aid, not a guarantee. Always verify links through official sources before clicking.
 - No URL is ever executed, downloaded, or rendered — only parsed and inspected.
 
 >  Warning: Although this tool analyzes multiple indicators and generates a risk score, its results are for guidance only. False positives or false negatives may occur. Never rely solely on this analysis: always verify the URL's authenticity by accessing the official source, checking the exact domain, and avoiding links received via untrusted channels. If in doubt, do not open the link.
